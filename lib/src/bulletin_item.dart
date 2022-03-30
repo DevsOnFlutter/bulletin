@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BulletinItem {
   Widget? icon;
   String text;
-  Function onTap;
+  VoidCallback? onTap;
 
   BulletinItem({
     this.icon,

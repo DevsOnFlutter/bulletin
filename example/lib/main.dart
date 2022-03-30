@@ -29,21 +29,28 @@ class MyApp extends StatelessWidget {
                   Icons.mic_outlined,
                   size: 20,
                 ),
+                backgroundColor: const Color(0xffFFF3D0),
                 children: [
                   BulletinItem(
                     text:
                         "1. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {},
+                    onTap: () {
+                      debugPrint("OnTap Function called for BulletinItem 1 ");
+                    },
                   ),
                   BulletinItem(
                     text:
                         "2. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {},
+                    onTap: () {
+                      debugPrint("OnTap Function called for BulletinItem 2 ");
+                    },
                   ),
                   BulletinItem(
                     text:
                         "3. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {},
+                    onTap: () {
+                      debugPrint("OnTap Function called for BulletinItem 3 ");
+                    },
                   ),
                 ],
               ),
