@@ -6,7 +6,7 @@ Flutter package to to show bulletins in your application.
 
 ## Show some :heart: and :star: the repo
 
-## Demo
+<!-- ## Demo -->
 
 ## Features
 
