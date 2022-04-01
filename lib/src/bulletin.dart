@@ -1,9 +1,10 @@
 import 'dart:async';
-
-import 'package:bulletin/src/bulletin_item.dart';
 import 'package:flutter/material.dart';
 
+import 'package:bulletin/src/bulletin_item.dart';
+
 class Bulletin extends StatefulWidget {
+  /// Bulletin
   const Bulletin({
     Key? key,
     this.children = const [],
@@ -74,9 +75,9 @@ class Bulletin extends StatefulWidget {
 }
 
 class _BulletinState extends State<Bulletin> with TickerProviderStateMixin {
-  late AnimationController _controller;
-  late ValueNotifier<int> index;
-  late ValueNotifier<bool> isClosed;
+  late final AnimationController _controller;
+  late final ValueNotifier<int> index;
+  late final ValueNotifier<bool> isClosed;
 
   @override
   void initState() {

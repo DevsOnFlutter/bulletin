@@ -6,11 +6,14 @@ Flutter package to to show bulletins in your application.
 
 ## Show some :heart: and :star: the repo
 
-<!-- ## Demo -->
+|<img height=500 src="https://i.imgur.com/suiSFeN.png"/>|
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+✅ Show Flash Cards
+✅ Pop up cards
+✅ Animation flash cards
+✅ Fully Customizable
 
 ## Getting started
 
@@ -20,46 +23,46 @@ Include plugin to your project
 dependencies:
   bulletin: <latest version>
 ```
+
 Run `pub get` and get packages.
 
 ## Example
+
 Go to example section in pub.dev to see the full example code.
 
 In GitHub, head over to `example/lib/main.dart` to see the full example code.
 
-|<img height=500 src="https://i.imgur.com/suiSFeN.png"/>|
-
 ```dart
 Bulletin(
-                icon: const Icon(
-                  Icons.mic_outlined,
-                  size: 20,
-                ),
-                backgroundColor: const Color(0xffFFF3D0),
-                children: [
-                  BulletinItem(
-                    text:
-                        "1. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {
-                      debugPrint("OnTap Function called for BulletinItem 1 ");
-                    },
-                  ),
-                  BulletinItem(
-                    text:
-                        "2. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {
-                      debugPrint("OnTap Function called for BulletinItem 2 ");
-                    },
-                  ),
-                  BulletinItem(
-                    text:
-                        "3. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
-                    onTap: () {
-                      debugPrint("OnTap Function called for BulletinItem 3 ");
-                    },
-                  ),
-                ],
-              ),
+  icon: const Icon(
+    Icons.mic_outlined,
+    size: 20,
+  ),
+  backgroundColor: const Color(0xffFFF3D0),
+  children: [
+    BulletinItem(
+      text:
+          "1. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
+      onTap: () {
+        debugPrint("OnTap Function called for BulletinItem 1 ");
+      },
+    ),
+    BulletinItem(
+      text:
+          "2. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
+      onTap: () {
+        debugPrint("OnTap Function called for BulletinItem 2 ");
+      },
+    ),
+    BulletinItem(
+      text:
+          "3. This is a bulletin.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget elementum libero.",
+      onTap: () {
+        debugPrint("OnTap Function called for BulletinItem 3 ");
+      },
+    ),
+  ],
+),
 ```
 
 ## Project Created & Maintained By
@@ -100,5 +103,5 @@ For a custom-hook to be merged, you will need to do the following:
 
 ## Copyright & License
 
-Code and documentation Copyright (c) 2021 [Divyanshu Shekhar](https://hackthedeveloper.com). Code released under the [BSD 3-Clause License](./LICENSE).
+Code and documentation Copyright (c) 2021 [DevsOnFlutter](https://github.com/DevsOnFlutter). Code released under the [BSD 3-Clause License](./LICENSE).
 
