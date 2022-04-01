@@ -2,7 +2,7 @@
 
 Flutter package to to show bulletins in your application.
 
-<img src="https://i.imgur.com/Y8kadag.png" title="Bulletin"/>
+<img src="https://i.imgur.com/8lWk9rd.jpg" title="Bulletin"/>
 
 ## Show some :heart: and :star: the repo
 
@@ -27,7 +27,7 @@ Go to example section in pub.dev to see the full example code.
 
 In GitHub, head over to `example/lib/main.dart` to see the full example code.
 
-
+|<img height=500 src="https://i.imgur.com/suiSFeN.png"/>|
 
 ```dart
 Bulletin(
